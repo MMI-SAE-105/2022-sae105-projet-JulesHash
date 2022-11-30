@@ -1,0 +1,19 @@
+:root {
+    /* Color styles */
+    --black : rgba(0,0,0);
+  
+    /* Text-size styles */
+    /* base size: mobile--l-light (16px) */
+    --mobile-xxxxl: 2.62rem;
+    --mobile-xxxl: 2.19rem;
+    --mobile-xxl: 1.5rem;
+    --mobile-xl: 1.38rem;
+    --mobile-l: 1rem;
+    --mobile-md: 0.88rem;
+    --mobile-s: 0.75rem;
+    --mobile-xs: 0.62rem;
+  
+    /* polices de caractère */
+    --serif: 'Playfair Display', serif;
+    --sans-serif: 'Inter', sans-serif;
+  }

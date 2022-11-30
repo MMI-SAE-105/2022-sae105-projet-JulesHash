@@ -1,0 +1,26 @@
+.Header {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.Home-Reverse {
+    width: 50px;
+}
+
+.Header-Burger {
+    margin-left: 310px;
+    margin-top: -100%;
+}
+
+.Background { 
+    background: linear-gradient(180deg, #FFFFFF 0%, #5A5A5A 0.01%, #940000 68.23%, #930000 76.04%, #000000 99.99%, #101010 100%);
+    margin-top: -16px;
+    margin-right: -2px;
+}
+
+.Background-2 {
+    background-color: black;
+    color: #FFFFFF;
+    font-family: var(--font);
+}
