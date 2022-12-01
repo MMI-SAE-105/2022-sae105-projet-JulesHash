@@ -23,4 +23,28 @@
     background-color: black;
     color: #FFFFFF;
     font-family: var(--font);
+    margin-top: -19px;
+    margin-right: -1px;
+}
+
+.Bienvenue-Reverse {
+    margin: auto;
+    display: flex;
+}
+
+.Text-Bienvenue-Reverse {
+    text-align: center;
+}
+
+.Quote-1{
+    margin-left: 25px;
+}
+
+.Quote-2{
+    text-align: right;
+    margin-right: 25px;
+}
+
+.Text-Signature-Bienvenue-Reverse {
+    text-align: right;
 }
