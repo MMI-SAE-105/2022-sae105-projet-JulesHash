@@ -8,29 +8,26 @@
     <link rel="icon" href="../assets/icons/reverse.png">
     <link rel="stylesheet" href="../FR/css/normalize.css">
     <link rel="stylesheet" href="../FR/css/styles.css">
+    <link rel="stylesheet" href="../FR/css/base/menu.css">
+    <link rel="stylesheet" href="../FR/css/fonts/typography.css">
 </head>
 <body>
-    <header class="Header">
-
-        <a href="index.html">
-            <img src="../assets/icons/header-reverse.webp" alt="Home Reverse" class="Home-Reverse">
-        </a>
-
-        <a href="#">
-            <img src="../assets/icons/header-burger.webp" alt="Header Burger" class="Header-Burger">
-        </a>
-
-        <ul class="Menu">
-            <li class="menu__item"><a href="film.html">Le Film</a></li>
-            <li class="menu__item"><a href="musique.html">La Musique</a></li>
-            <li class="menu__item"><a href="livre.html">Le Livre</a></li>
-            <li class="menu__item"><a href="lieu.html">Le Lieu</a></li>
-            <li class="menu__item"><a href="crainte.html">Ma Crainte</a></li>
-            <li class="menu__item"><a href="espoir.html">Mon Espoir</a></li>
-          </ul>
+    <header>
 
     </header>
-
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('Menu-Open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="Menu">
+        <ul>
+            <li><a href="film.html">Ce Film</a></li>
+            <li><a href="musique.html">Cette Musique</a></li>
+            <li><a href="lieu.html">Ce Lieu</a></li>
+            <li><a href="livre.html">Ce Livre</a></li>
+            <li><a href="espoir.html">Cet Espoir</a></li>
+            <li><a href="crainte.html">Cette Crainte</a></li>
+        </ul>
+    </nav>
     <div class="Background">
         <img src="../assets/img/logo-reverse.webp" alt="Logo Reverse">
         <h3>Jules Dupaquier MMI1 A2</h3>
