@@ -1,0 +1,23 @@
+.Footer {
+    background-color: #151515;
+}
+
+.Logo-MMI1 {
+    display: flex;
+    width: 75px;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    margin-left: 37%;
+}
+
+.Reverse2D {
+    display: flex;
+    width: 40%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    margin-left: 27%;
+}
+
+.Socials {
+    display: flex;
+}
