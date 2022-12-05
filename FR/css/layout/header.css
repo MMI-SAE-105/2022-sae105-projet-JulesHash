@@ -1,5 +1,5 @@
 .Header {
-    background-color: black;
+    background-color: var(--FullNoir);
     position: sticky;
     top: 0px;
 }
@@ -20,8 +20,8 @@
 }
 
 .Background-2 {
-    background-color: black;
-    color: #FFFFFF;
+    background-color: var(--FullNoir);
+    color: var(--Blanc);
     font-family: var(--font);
     margin-top: -19px;
     margin-right: -1px;
