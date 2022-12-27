@@ -1,3 +1,18 @@
+.Logo-Reverse {
+    display: block;
+}
+
+.NameText {
+    font-family: 'Mulish';
+    font-style: normal;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--Blanc);
+    opacity: 0.5;
+}
+
 .en-savoir-plus {
     display: flex;
     align-items: center;
@@ -41,14 +56,18 @@
     margin-right: -2px;
 }
 
+.Lang-FR {
+    margin-top: 280px;
+    margin-left: 70px;
+}
+
 .Background-2 {
     height: 334px;
-    left: 0px;
     top: 864px;
     background-color: var(--Noir);
     color: var(--Blanc);
     font-family: var(--font);
-    margin-top: -19px;
+    margin-top: -25px;
     margin-right: -1px;
 }
 
@@ -64,8 +83,10 @@
     background: rgb(147,0,0);
     background: linear-gradient( rgba(147,0,0,1) 0%, rgba(147,0,0,1) 70%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);
 }
+
 .Bienvenue-Reverse {
     position: absolute;
+    margin-top: 40px;
     height: 74px;
     left: 95px;
     top: 1070px;
@@ -76,43 +97,47 @@
 }
 
 .Quote-1{
-    width: 248px;
-    height: 50px;
-    left: 10px;
-    top: 893px;
 
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 25px;
-
     text-align: center;
-
     color: var(--Blanc);
     margin-left: 25px;
 }
 
 .Quote-2{
-    width: 190px;
-    height: 50px;
-    left: 156px;
-    top: 951px;
-    
+    margin-top: 50px;
+    margin-right: 25px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 25px;
-
     text-align: center;
-    
     color: var(--Blanc);
     
 }
 
 .Text-Signature-Bienvenue-Reverse {
     text-align: right;
+}
+
+.ALaUne {
+
+width: 15px;
+height: 37px; 
+background: var(--RougeFonce);
+margin-left: 30px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: var(--Noir30);
 }
 
 .FilmText {
@@ -185,13 +210,13 @@ color: var(--Noir30);
     margin-top: 50px;
     margin-bottom: 50px;
 	color:var(--Noir);
-	padding-top:1.8em;
-	display:block;
-	position:relative;
+	padding-top: 1.8em;
+	display: block;
+	position: relative;
 	border-color: var(--Noir);
-	text-decoration:none;
+	text-decoration: none;
     text-align: center;
-	transition:all .3s ease-out;
+	transition: all .3s ease-out;
 }
 .arrow-top:before{
 	content:'▲';
@@ -199,13 +224,13 @@ color: var(--Noir30);
 	position:absolute;
 	top:0;
 	left:50%;
-	border:solid .13em var(--Noir);
+	border: solid .13em var(--Noir);
 	border-radius:10em;
 	width:1.4em;
 	height:1.4em;
 	line-height:1.3em;
-	border-color:inherit;
-	transition:transform .5s ease-in;
+	border-color: inherit;
+	transition: .5s ease-in;
 }
 .arrow-top:hover{
 	color: var(--Noir);
