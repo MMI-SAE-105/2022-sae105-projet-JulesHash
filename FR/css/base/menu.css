@@ -57,6 +57,10 @@ justify-content: center;
 transform: translateX(100vw);
 transition: all .4s;
 z-index: 1;
+font-family: "Mulish", sans-serif;
+font-size: 1.75rem; /* = à 28 pixels */
+line-height: 1.6;
+font-weight: 300
 }
 
 .Menu-Open .Menu {

@@ -11,7 +11,7 @@ Header {
 
 .header1{
     background: var(--Noir15);
-    border-bottom: #930000 8px solid;
+    border-bottom: var(--RougeFonce) 8px solid;
 }
 
 .header_flex{

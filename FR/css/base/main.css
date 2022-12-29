@@ -2,17 +2,6 @@
     display: block;
 }
 
-.NameText {
-    font-family: 'Mulish';
-    font-style: normal;
-    text-align: center;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 150%;
-    color: var(--Blanc);
-    opacity: 0.5;
-}
-
 /* Bouton EN SAVOIR PLUS à gauche */
 
 .En-Savoir-PlusLeft {
@@ -90,6 +79,44 @@
     opacity: .5;
 }
 
+/* Global */
+
+.arrow-top{
+    margin-top: 50px;
+    margin-bottom: 50px;
+	color:var(--Noir);
+	padding-top: 1.8em;
+	display: block;
+	position: relative;
+	border-color: var(--Noir);
+	text-decoration: none;
+    text-align: center;
+	transition: all .3s ease-out;
+}
+.arrow-top:before{
+	content:'▲';
+	font-size:.9em;
+	position:absolute;
+	top:0;
+	left:50%;
+	border: solid .13em var(--Noir);
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color: inherit;
+	transition: .5s ease-in;
+}
+.arrow-top:hover{
+	color: var(--Noir);
+	border-color: var(--Noir);
+}
+.arrow-top:hover:before{
+	transform: rotate(360deg);
+}
+
+/* Index.html */
+
 .Background { 
     height: 864px;
     left: 0px;
@@ -97,6 +124,16 @@
     background: linear-gradient(180deg, #FFFFFF 0%, #5A5A5A 0.01%, #940000 68.23%, #930000 76.04%, #000000 99.99%, #101010 100%);
     margin-top: 0px;
     margin-right: -2px;
+}
+
+.NameText {
+    font-family: 'Mulish';
+    font-style: normal;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;;
+    color: var(--Blanc);
+    opacity: 0.5;
 }
 
 .Lang-FR {
@@ -121,24 +158,6 @@
     border-radius: 16px;
 }
 
-.test {
-    padding-top: 10px;
-    background: rgb(147,0,0);
-    background: linear-gradient( rgba(147,0,0,1) 0%, rgba(147,0,0,1) 70%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);
-}
-
-.Bienvenue-Reverse {
-    margin-left: 95px;
-    margin-top: 40px;
-    align-items: center;
-    height: 74px;
-    left: 95px;
-    top: 1070px;
-}
-
-.Text-Bienvenue-Reverse {
-    text-align: center;
-}
 
 .Quote-1{
 
@@ -165,23 +184,30 @@
     
 }
 
-.Text-Signature-Bienvenue-Reverse {
-    text-align: right;
+.test {
+    padding-top: 10px;
+    background: rgb(147,0,0);
+    background: linear-gradient( rgba(147,0,0,1) 0%, rgba(147,0,0,1) 70%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);
 }
 
-.ALaUne {
+.Bienvenue-Reverse {
+    margin-left: 95px;
+    margin-top: 40px;
+    align-items: center;
+    height: 74px;
+    left: 95px;
+    top: 1070px;
+}
 
-width: 15px;
-height: 37px; 
-background: var(--RougeFonce);
-margin-left: 30px;
+.Text-Bienvenue-Reverse {
+    text-align: center;
+    color: var(--Blanc);
+}
 
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-color: var(--Noir30);
+.Text-Signature-Bienvenue-Reverse {
+    text-align: right;
+    color: var(--Blanc);
+    opacity: 0.7;
 }
 
 .FilmText {
@@ -274,36 +300,20 @@ color: var(--Noir30);
     z-index: 1;
 }
 
-.arrow-top{
-    margin-top: 50px;
+/* Crainte.html */
+
+.BackgroundCrainte {
+    width  : 375px;
+    height : 275px;
+    background : var(--Noir);
     margin-bottom: 50px;
-	color:var(--Noir);
-	padding-top: 1.8em;
-	display: block;
-	position: relative;
-	border-color: var(--Noir);
-	text-decoration: none;
-    text-align: center;
-	transition: all .3s ease-out;
+    border-bottom: var(--RougeFonce) 8px solid;
 }
-.arrow-top:before{
-	content:'▲';
-	font-size:.9em;
-	position:absolute;
-	top:0;
-	left:50%;
-	border: solid .13em var(--Noir);
-	border-radius:10em;
-	width:1.4em;
-	height:1.4em;
-	line-height:1.3em;
-	border-color: inherit;
-	transition: .5s ease-in;
+
+.Crainte-Head-Image {
+    z-index: 1;
 }
-.arrow-top:hover{
-	color: var(--Noir);
-	border-color: var(--Noir);
-}
-.arrow-top:hover:before{
-	transform: rotate(360deg);
+
+.Title-Box-Crainte {
+    z-index: 2;
 }
