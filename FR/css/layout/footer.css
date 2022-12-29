@@ -1,10 +1,11 @@
 .Footer {
     background-color: var(--Noir15);
     border-top: #930000 8px solid;
+    margin-bottom: -17px;
+    padding-bottom: 20px;
 }
 
 .Footer a {
-    color: var(--GrisClair);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,16 +30,24 @@
     display: inline-flex;
 }
 
-.Instagram {
-    width: 48px;
-}
-
 .Linkedin {
     width: 48px;
+    margin: auto;
+    margin-left: 55px;
 }
 
 .Twitter {
     width: 48px;
+    margin: auto;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.Instagram {
+    width: 48px;
+    margin: auto;
+    margin-right: -50px;
+    margin-left: -40px;
 }
 
 html {
@@ -46,4 +55,29 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.FooterLinks {
+    color: var(--Rouge);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.MailTo {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--Blanc);
+    text-decoration: dashed;
+}
+
+.Legals {
+    text-align: center;
+}
+
+.LegalsLinks {
+    color: var(--GrisClair);
 }

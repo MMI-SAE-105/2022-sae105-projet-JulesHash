@@ -13,8 +13,12 @@
     opacity: 0.5;
 }
 
-.en-savoir-plus {
+/* Bouton EN SAVOIR PLUS à gauche */
+
+.En-Savoir-PlusLeft {
+    z-index: 10;
     display: flex;
+    margin-left: 10px;
     align-items: center;
     justify-content: center;
     line-height: 1;
@@ -33,17 +37,56 @@
     background-color: var(--Noir);;
 }
   
-.en-savoir-plus::before {
+.En-Savoir-PlusLeft::before {
     content: "";
     display: block;
 }
   
-.en-savoir-plus::after {
+.En-Savoir-PlusLeft::after {
     content: "";
     display: block;
 }
   
-.en-savoir-plus:hover {
+.En-Savoir-PlusLeft:hover {
+    opacity: .5;
+}
+
+/* Bouton EN SAVOIR PLUS à droite */
+
+.En-Savoir-PlusRight {
+    z-index: 10;
+    position: zz;
+    display: flex;
+    margin-left: 135px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: var(--Blanc);
+    font-size: 18px;
+    border-radius: 12px;
+    width: 210px;
+    height: 45px;
+    font-weight: bold;
+    border-top: 3px solid var(--Blanc);
+    border-right: 3px solid var(--Blanc);
+    border-left: 3px solid var(--Blanc);
+    border-bottom: 3px solid var(--Blanc);
+    transition: 0.5s;
+    background-color: var(--Noir);;
+}
+  
+.En-Savoir-PlusRight::before {
+    content: "";
+    display: block;
+}
+  
+.En-Savoir-PlusRight::after {
+    content: "";
+    display: block;
+}
+  
+.En-Savoir-PlusRight:hover {
     opacity: .5;
 }
 
@@ -85,8 +128,9 @@
 }
 
 .Bienvenue-Reverse {
-    position: absolute;
+    margin-left: 95px;
     margin-top: 40px;
+    align-items: center;
     height: 74px;
     left: 95px;
     top: 1070px;
@@ -151,6 +195,10 @@ line-height: 38px;
 color: var(--Noir30);
 }
 
+.ImgFilm {
+    z-index: 1;
+}
+
 .MusiqueText {
 text-align: left;
 margin-left: 20px;
@@ -160,6 +208,10 @@ font-weight: 300;
 font-size: 32px;
 line-height: 38px;
 color: var(--Noir30);
+}
+
+.ImgMusique {
+    z-index: 1;
 }
 
 .LivreText {
@@ -173,6 +225,10 @@ line-height: 38px;
 color: var(--Noir30);
 }
 
+.ImgLivre {
+    z-index: 1;
+}
+
 .LieuText {
 text-align: left;
 margin-left: 20px;
@@ -182,6 +238,10 @@ font-weight: 300;
 font-size: 32px;
 line-height: 38px;
 color: var(--Noir30);
+}
+
+.ImgLieu {
+    z-index: 1;
 }
 
 .EspoirText {
@@ -195,6 +255,10 @@ line-height: 38px;
 color: var(--Noir30);
 }
 
+.ImgEspoir {
+    z-index: 1;
+}
+
 .CrainteText {
 text-align: left;
 margin-left: 20px;
@@ -204,6 +268,10 @@ font-weight: 300;
 font-size: 32px;
 line-height: 38px;
 color: var(--Noir30);
+}
+
+.ImgCrainte {
+    z-index: 1;
 }
 
 .arrow-top{
