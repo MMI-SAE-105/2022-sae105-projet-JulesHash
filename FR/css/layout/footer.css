@@ -72,10 +72,12 @@ html {
     font-size: 16px;
     color: var(--Blanc);
     text-decoration: dashed;
+    margin-bottom: 50px;
 }
 
 .Legals {
     text-align: center;
+    color: var(--GrisClair);
 }
 
 .LegalsLinks {

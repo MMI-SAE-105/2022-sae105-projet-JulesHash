@@ -58,10 +58,13 @@ h4 {
 }
 
 h5 {
-    font-family: "Rubik", sans-serif;
-    font-size: 1.25rem; /* = à 20 pixels */
-    line-height: 1.6;
-    font-weight: 700
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    text-align: center;
+    margin: 15px;
 }
 
 h6 {
