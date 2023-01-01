@@ -1,10 +1,16 @@
 .Logo-Reverse {
     display: block;
+    padding-top: 120px;
 }
 
 /* Bouton EN SAVOIR PLUS à gauche */
 
 .En-Savoir-PlusLeft {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
     z-index: 10;
     display: flex;
     margin-left: 10px;
@@ -43,6 +49,11 @@
 /* Bouton EN SAVOIR PLUS à droite */
 
 .En-Savoir-PlusRight {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
     z-index: 10;
     position: zz;
     display: flex;
@@ -128,6 +139,7 @@
 
 .NameText {
     font-family: 'Mulish';
+    padding-top: 120px;
     font-style: normal;
     text-align: center;
     font-weight: 300;
