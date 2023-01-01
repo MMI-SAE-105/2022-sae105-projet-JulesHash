@@ -317,3 +317,21 @@ color: var(--Noir30);
 .Title-Box-Crainte {
     z-index: 2;
 }
+
+/* Film.html */
+
+.BackgroundFilm {
+    width  : 375px;
+    height : 400px;
+    background : var(--Noir);
+    margin-bottom: 50px;
+    border-bottom: var(--RougeFonce) 8px solid;
+}
+
+.Film-Head-Image {
+    z-index: 1;
+}
+
+.Title-Box-Film {
+    z-index: 2;
+}
