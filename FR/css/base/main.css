@@ -345,3 +345,13 @@ color: var(--Noir30);
     margin-bottom: 50px;
     border-bottom: var(--RougeFonce) 8px solid;
 }
+
+/* Lieu.html */
+
+.BackgroundLieu {
+    width  : 375px;
+    height : 350px;
+    background : var(--Noir);
+    margin-bottom: 50px;
+    border-bottom: var(--RougeFonce) 8px solid;
+}

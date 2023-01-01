@@ -4,42 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverse · Le Lieu</title>
+    <title>Reverse</title>
     <link rel="icon" href="../assets/icons/reverse.png">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../FR/css/normalize.css">
+    <link rel="stylesheet" href="../FR/css/styles.css">
+    <link rel="stylesheet" href="../FR/css/base/menu.css">
+    <link rel="stylesheet" href="../FR/css/fonts/typography.css">
 </head>
 <body>
-    <header>
-
-        <a href="index.html">
-            <img src="../assets/icons/header-reverse.webp" alt="Home Reverse">
-        </a>
-
-        <img src="../assets/img/reverse.webp" alt="Reverse">
-
-        <a href="#">
-            <img src="../assets/icons/header-burger.webp" alt="Header Burger">
-        </a>
-
-        <ul>
-            <li><a href="film.html">Le Film</a></li>
-            <li><a href="musique.html">La Musique</a></li>
-            <li><a href="livre.html">Le Livre</a></li>
-            <li><a href="lieu.html">Le Lieu</a></li>
-            <li><a href="crainte.html">Ma Crainte</a></li>
-            <li><a href="espoir.html">Mon Espoir</a></li>
-          </ul>
-
+    <header class="header1">
+        <div class="header_flex">
+            <div class="logo_site">
+                <a href="index.html">
+                    <img src="../assets/icons/header-reverse.webp" alt="Head-Reverse">
+                </a>
+            </div>
+            <div class="nav-toggle" onclick="document.documentElement.classList.toggle('Menu-Open')">
+                <div class="nav-toggle-bar"></div>
+            </div>
+            <nav class="Menu">
+                <ul>
+                    <li><a href="film.html">> Ce Film</a></li>
+                    <li><a href="musique.html">> Cette Musique</a></li>
+                    <li><a href="lieu.html">> Ce Lieu</a></li>
+                    <li><a href="livre.html">> Ce Livre</a></li>
+                    <li><a href="espoir.html">> Cet Espoir</a></li>
+                    <li><a href="crainte.html">> Cette Crainte</a></li>
+                </ul>
+            </nav>
+    </div>
     </header>
 
-    <img src="../assets/img/lieu/lieu-head-image.webp" alt="Lieu Image Header">
-    <h1>Dijon</h1>
-    <h2>Côte d’Or, Bourgogne Franche-Comté, France</h2>
+    <div class="BackgroundLieu">
+        <img src="../assets/img/lieu/lieu-head-image.webp" alt="Lieu-Head-Image">
+        <img src="../assets/icons/lieu-title-box.svg" alt="Title-Box-Lieu">
+    </div>
 
-    <h1>"Bienvenue à Dijon !"</h1>
+    <a href="lieu-en.html" class="Lang-FR">
+        <img src="../assets/icons/button-lang-fr.png" alt="Lang-FR" class="Lang-FR">
+    </a>
+
+    <div class="TitleH1">
+        <h1>Bienvenue à Dijon !</h1>
+    </div>
 
     <img src="../assets/img/lieu/lieu-img1.webp" alt="Lieu Image Header">
-    <q>La Place de la Libération</q>
+    <h6>La Place de la Libération</h6>
 
     <p>
         Visite guidée au programme d’aujourd’hui!
@@ -57,7 +67,7 @@
     </p>
 
     <img src="../assets/img/lieu/lieu-img2.webp" alt="Lieu Image 2">
-    <q>Le Musée des Beaux-Arts</q>
+    <h6>Le Musée des Beaux-Arts</h6>
 
     <p>
         En passant à certains coins de rue, l’ambiance devient différente.
@@ -68,7 +78,7 @@
     </p>
 
     <img src="../assets/img/lieu/lieu-img3.webp" alt="Lieu Image 3">
-    <q>La Place François Rude, dite Place du Carrousel</q>
+    <h6>La Place François Rude, dite Place du Carrousel</h6>
 
     <p>
         Continuons notre visite pour arriver jusqu’à la Place Darcy où la porte Guillaume figure en porte-étendard. 
@@ -77,7 +87,7 @@
     </p> 
 
     <img src="../assets/img/lieu/lieu-img4.webp" alt="Lieu Image 4">
-    <q>La Place Darcy et la Porte Guillaume</q>
+    <h6>La Place Darcy et la Porte Guillaume</h6>
 
     <p>
         Arrêtons-nous un instant sur cette place. De loin nous pouvons observer le prestigieux Grand Hôtel La Cloche. 
@@ -85,7 +95,7 @@
     </p> 
 
     <img src="../assets/img/lieu/lieu-img5.webp" alt="Lieu Image 5">
-    <q>Le Grand Hôtel La Cloche, *****</q>
+    <h6>Le Grand Hôtel La Cloche, *****</h6>
 
     <p>
         Il faut notamment savoir que Dijon a été classée comme la ville la plus verte de France selon Forbes France. 
@@ -93,35 +103,36 @@
         le Jardin de l’Arquebuse, près de la gare. 
     </p> 
     
-    <img src="../assets/icons/footer-arrow.webp" alt="Arrow">
+    <a href="#" class="arrow-top">Retour en haut !</a>
 
-    <footer>
+    <footer class="Footer">
         <a href="http://mmimontbeliard.com/">
-            <img src="../assets/icons/logo-mmi1.webp" alt="Logo MMI1">
+            <img src="../assets/icons/logo-mmi1.webp" alt="Logo MMI1" class="Logo-MMI1">
         </a>
-        <img src="../assets/img/reverse.webp" alt="Reverse">
+        <img src="../assets/img/reverse.webp" alt="Reverse" class="Reverse2D">
 
-        <p><a href="glossaire.html">Glossaire</a></p>
-        <p><a href="about.html">À propos</a></p>
-        <p><a href="contact.html">Contact</a></p>
-        <p><a href="projets.html">Autres projets</a></p>
+        <p><a href="glossaire.html" class="FooterLinks">Glossaire</a></p>
+        <p><a href="about.html" class="FooterLinks">À propos</a></p>
+        <p><a href="contact.html" class="FooterLinks">Contact</a></p>
+        <p><a href="projets.html" class="FooterLinks">Autres projets</a></p>
 
-        <a href="https://www.linkedin.com/in/julesdupaquier/">
-            <img src="../assets/icons/linkedin.webp" alt="Linkedin">
-        </a>
+        <div class="Socials">
+            <a href="https://www.linkedin.com/in/julesdupaquier/" class="Linkedin">
+                <img src="../assets/icons/linkedin.webp" alt="Linkedin" class="Linkedin">
+            </a>
 
-        <a href="https://twitter.com/hashtapix">
-            <img src="../assets/icons/twitter.webp" alt="Twitter">
-        </a>
+            <a href="https://twitter.com/hashtapix" class="Twitter">
+                <img src="../assets/icons/twitter.webp" alt="Twitter" class="Twitter">
+            </a>
+        
+            <a href="https://www.instagram.com/juleshash/?hl=fr" class="Instagram">
+                <img src="../assets/icons/instagram.webp" alt="Instagram" class="Instagram">
+            </a>
+        </div>
 
-
-        <a href="https://www.instagram.com/juleshash/?hl=fr">
-            <img src="../assets/icons/instagram.webp" alt="Instagram">
-        </a>
-
-        <p><a href="mailto:dupaquier.jules@gmail.com">dupaquier.jules@gmail.com</a></p>
+        <p><a href="mailto:dupaquier.jules@gmail.com" class="MailTo">dupaquier.jules@gmail.com</a></p>
   
-        <p>Projet réalisé dans le cadre d’un projet pédagogique au <a href="http://mmimontbeliard.com/">Département MMI de Montbéliard</a></p>
+        <p class="Legals">Projet réalisé dans le cadre d’un projet pédagogique au <a href="http://mmimontbeliard.com/" class="LegalsLinks"><strong>Département MMI de Montbéliard</strong></a></p>
 
     </footer>
 </body>
