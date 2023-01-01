@@ -9,7 +9,7 @@ Header {
     margin-top: -100%;
 }
 
-.header1{
+.header1 {
     background: var(--Noir15);
     border-bottom: var(--RougeFonce) 8px solid;
 }
