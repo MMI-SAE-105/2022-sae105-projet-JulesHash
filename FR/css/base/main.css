@@ -93,6 +93,7 @@
 /* Global */
 
 .arrow-top{
+    font-size: 1.6rem;
     margin-top: 50px;
     margin-bottom: 50px;
 	color:var(--Noir);
@@ -367,3 +368,39 @@ color: var(--Noir30);
     margin-bottom: 50px;
     border-bottom: var(--RougeFonce) 8px solid;
 }
+
+/* Contact-fr.html */
+
+.ContactForm {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
