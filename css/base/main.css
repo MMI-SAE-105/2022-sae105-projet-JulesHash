@@ -458,3 +458,51 @@ color: var(--Noir30);
     margin-left: 178.5px;
     margin-right: 178.5px;
   }
+
+/* Projets.html */
+
+.BackgroundProjets {
+    width  : 375px;
+    height : 250px;
+    background : var(--Noir);
+    margin-bottom: 50px;
+    border-bottom: var(--RougeFonce) 8px solid;
+}
+
+.BlackPanel {
+    background-color: var(--Noir15);
+    width: 375px;
+    margin-bottom: 13px;
+}
+
+.RedPanel {
+    background-color: var(--RougeFonce);
+    width: 375px;
+    margin-bottom: 13px;
+}
+
+.PanelTitle {
+    padding-top: 50px;
+    width: 353px;
+    height: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--Blanc);
+}
+
+.PanelName {
+    padding-bottom: 50px;
+    width: 353px;
+    height: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--Blanc);
+}
