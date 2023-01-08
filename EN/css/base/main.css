@@ -487,7 +487,23 @@ color: var(--Noir30);
     cursor: pointer;
     float: right;
   }
-  
-  button[type="submit"]:hover {
-    background-color: #45a049;
+
+/* Glossaire.html */
+
+.BackgroundGlossaire {
+    padding: 15px;
+    width  : 375px;
+    height : 130px;
+    background : var(--Noir);
+    margin-bottom: 50px;
+    border-bottom: var(--RougeFonce) 8px solid;
+}
+
+.RedCircle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%; 
+    background-color: var(--RougeFonce);
+    margin-left: 178.5px;
+    margin-right: 178.5px;
   }

@@ -99,6 +99,7 @@
     font-weight: 700;    
     font-size: 1.8rem;
     margin-top: 50px;
+    margin-right: 30px;
     margin-bottom: 50px;
 	color:var(--Noir);
 	padding-top: 1.8em;
@@ -156,7 +157,8 @@
 
 .Lang-Switch {
     margin-top: 50px;
-    margin-left: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 .Background-2 {
@@ -436,7 +438,23 @@ color: var(--Noir30);
     cursor: pointer;
     float: right;
   }
-  
-  button[type="submit"]:hover {
-    background-color: #45a049;
+
+/* Glossaire.html */
+
+.BackgroundGlossaire {
+    padding: 15px;
+    width  : 375px;
+    height : 130px;
+    background : var(--Noir);
+    margin-bottom: 50px;
+    border-bottom: var(--RougeFonce) 8px solid;
+}
+
+.RedCircle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%; 
+    background-color: var(--RougeFonce);
+    margin-left: 178.5px;
+    margin-right: 178.5px;
   }

@@ -84,7 +84,17 @@ p {
     font-family: 'Rubik';
     font-weight: 400;
     color: var(--Noir30);
-    margin: 20px;
+    margin: 30px;
+}
+
+.Definitions {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.6rem; /* = à 16 pixels */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Rubik';
+    color: var(--RougeFonce);
 }
 
 .TextFilm {
