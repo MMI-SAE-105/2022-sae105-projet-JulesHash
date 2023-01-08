@@ -360,6 +360,18 @@ color: var(--Noir30);
     z-index: 2;
 }
 
+.LinkFilm {
+    font-family: 'Rubik';
+    font-style: normal;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 31px;
+    color: var(--RougeFonce);
+}
+
 /* Musique.html */
 
 .BackgroundMusique {
@@ -528,6 +540,17 @@ color: var(--Noir30);
     padding-top: 50px;
     width  : 375px;
     height : 250px;
+    background : var(--Noir);
+    margin-bottom: 50px;
+    border-bottom: var(--RougeFonce) 8px solid;
+}
+
+/* Filmographie.html */
+
+.BackgroundFilmographie {
+    padding-top: 50px;
+    width  : 375px;
+    height : 400px;
     background : var(--Noir);
     margin-bottom: 50px;
     border-bottom: var(--RougeFonce) 8px solid;
