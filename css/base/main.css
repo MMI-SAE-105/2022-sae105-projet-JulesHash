@@ -506,3 +506,14 @@ color: var(--Noir30);
     text-align: center;
     color: var(--Blanc);
 }
+
+/* About.html */
+
+.BackgroundAbout {
+    padding-top: 50px;
+    width  : 375px;
+    height : 250px;
+    background : var(--Noir);
+    margin-bottom: 50px;
+    border-bottom: var(--RougeFonce) 8px solid;
+}
