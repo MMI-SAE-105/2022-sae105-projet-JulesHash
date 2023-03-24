@@ -1,0 +1,10 @@
+.Titre {
+    align-items: center;
+    margin-top: 300px;
+}
+
+.IndexImage {
+    background-image: url(/assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
