@@ -3,14 +3,7 @@
 /* Palette de Couleurs */
 
   --Noir: rgba(0, 0, 0, 1);
-  --Noir15: rgba(15, 15, 15, 1);
-  --Noir20: rgba(20, 20, 20, 1);
-  --Noir30: rgba(30, 30, 30, 1);
-  --Noir48: rgba(48, 48, 48, 1);
-  --GrisClair: rgba(170, 170, 170, 1);
   --Blanc: rgba(255, 255, 255, 1);
-  --RougeFonce: rgba(148, 0, 0);
-  --Rouge: rgba(255, 0, 0, 1);
 
 /* Styles de texte */
 
