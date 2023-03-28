@@ -1,0 +1,57 @@
+.Avatars {
+    display: flex;
+    justify-content: space-between;
+}
+
+#presentation {
+    opacity: 0;
+}
+
+#presentation:hover {
+    animation: move 5s ease-in-out;
+}
+
+@keyframes move {
+
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 1;
+        transform: translate(0px, -50px);
+    }
+    20% {
+        opacity: 1;
+        transform: translate(0px, -50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 100px);
+    }
+}
+
+.card {
+    background-color: var(--Blanc);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+    overflow: hidden;
+}
+
+
+.card svg {
+    display: block;
+}
+
+.card-picture {
+    position: relative;
+    
+}
+
+.card-picture svg {
+    max-width: 100%;
+    max-height: 100%;
+}

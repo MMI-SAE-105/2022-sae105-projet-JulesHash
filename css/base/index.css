@@ -1,6 +1,8 @@
 .Titre {
-    align-items: center;
-    margin-top: 300px;
+    background-color: var(--Blanc);
+    box-shadow: 10px;
+    text-align: center;
+    margin-top: 200px;
 }
 
 .IndexImage {
@@ -8,3 +10,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.IndexButton {
+    justify-content: center;
+    align-items: center;
+    margin-left: 630px;
+}
+

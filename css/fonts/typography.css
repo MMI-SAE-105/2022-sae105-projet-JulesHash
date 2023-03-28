@@ -37,3 +37,14 @@ p {
     font-weight: 400;
     color: var(--Noir);
 }
+
+.Signature {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+    color: var(--Noir);
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
